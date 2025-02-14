@@ -1,12 +1,13 @@
 [package]
-name = "reindexer"
-version = "0.1.0"
+name = "DMParser"
+version = "0.1.2"
 edition = "2021"
 
 [dependencies]
 dotenvy = "0.15.0"
 tokio = { version = "1.43.0", features = ["rt-multi-thread", "macros"] }
-sqlx = { version = "0.8.3", features = ["runtime-tokio-rustls", "mysql"] }
+# Added "macros" for compile-time query checking (optional but recommended)
+sqlx = { version = "0.8.3", features = ["runtime-tokio-rustls", "mysql", "macros"] }
 csv = "1.1.6"
 regex = "1.8.1"
 chrono = "0.4.26"
@@ -17,3 +18,7 @@ backoff = "0.4"           # For exponential backoff retry logic
 tracing = "0.1"           # For structured logging
 tracing-subscriber = "0.3" # For configuring the tracing subscriber
 metrics = "0.18"          # For collecting and emitting metrics
+
+[dev-dependencies]
+# sqlx-cli is useful for running migrations or offline query verification
+sqlx-cli = { version = "0.8.3", features = ["mysql"] }
