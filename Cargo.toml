@@ -22,3 +22,6 @@ metrics = "0.18"          # For collecting and emitting metrics
 [dev-dependencies]
 # sqlx-cli is useful for running migrations or offline query verification
 sqlx-cli = { version = "0.8.3", features = ["mysql"] }
+
+
+

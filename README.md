@@ -1,8 +1,17 @@
 # DMParser 📜✨
 
-[![Build Status](https://github.com/saintpetejackboy/DMParser/actions/workflows/ci.yml/badge.svg)](https://github.com/saintpetejackboy/DMParser/actions)
-[![Crates.io](https://img.shields.io/crates/v/DMParser.svg)](https://crates.io/crates/DMParser)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Crates.io](https://img.shields.io/crates/v/DMParser)](https://crates.io/crates/DMParser)
+[![docs.rs](https://docs.rs/DMParser/badge.svg)](https://docs.rs/DMParser)
+[![Build Status](https://github.com/saintpetejackboy/DMParser/actions/workflows/rust.yml/badge.svg)](https://github.com/saintpetejackboy/DMParser/actions)
+[![License](https://img.shields.io/crates/l/DMParser)](https://github.com/saintpetejackboy/DMParser/blob/main/LICENSE)
+[![Rust Version](https://img.shields.io/badge/rustc-1.71+-blue.svg)](https://blog.rust-lang.org/)
+[![Dependency Status](https://deps.rs/crate/DMParser/0.1.2/status.svg)](https://deps.rs/crate/DMParser/0.1.2)
+[![LoC](https://tokei.rs/b1/github/saintpetejackboy/DMParser)](https://github.com/saintpetejackboy/DMParser)
+[![Code Style](https://img.shields.io/badge/rustfmt-checked-blue)](https://github.com/rust-lang/rustfmt)
+[![Unsafe Code](https://img.shields.io/badge/unsafe-0%25-green.svg)](https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html)
+[![Issues](https://img.shields.io/github/issues/saintpetejackboy/DMParser)](https://github.com/saintpetejackboy/DMParser/issues)
+[![Pull Requests](https://img.shields.io/github/issues-pr/saintpetejackboy/DMParser)](https://github.com/saintpetejackboy/DMParser/pulls)
+
 
 A high-performance Rust tool for processing and ingesting Deal Machine CSV files. DMParser uses modern asynchronous operations, bulk database inserts, and robust error handling to efficiently process large datasets.
 
